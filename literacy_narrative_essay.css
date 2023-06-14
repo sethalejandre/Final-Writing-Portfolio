@@ -1,0 +1,80 @@
+/* Custom CSS styles for Literacy Narrative Essay */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FDE4D7;
+}
+
+header {
+  background-color: #FF8F6D;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #752C24;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  border: 2px dashed #FFBFA8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section h2 {
+  color: #752C24;
+  margin-bottom: 10px;
+}
+
+.content {
+  background-color: #FFBFA8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.artifact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 48%;
+  background-color: #FFBFA8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.artifact {
+  border: 2px solid #752C24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.reflection {
+  border: 2px solid #752C24;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.artifact h3,
+.reflection h4 {
+  color: #752C24;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #FF8F6D;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #752C24;
+}
